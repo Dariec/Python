@@ -22,8 +22,6 @@ print("Это новая Прога - DAriec")
 
 
 
-
-
 while answer != "q":
     degr()
 
