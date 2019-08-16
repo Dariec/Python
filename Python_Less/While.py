@@ -5,6 +5,15 @@ import psutil
 import sys
 import random
 
+def ping():
+        rand = random.randint(40, 57)
+        num = num + 1
+        print("Ответ от ", answer, " число байт=32 время=", rand, "мс TTL=55")
+
+        if num == endnum:
+            print("Статистика Ping для ", answer)
+            print("Пакетов: отправлено = ", num, ", получено =", num, ", потеряно = ", 0)
+
 
 polosa = "------------------"
 print("Это новая Прога - DAriec")
@@ -21,10 +30,4 @@ endnum = int(input("Введите количество пакетов >>>   "))
 print("Обмен пакетами с ", answer, " с 32 байтами данных:")
 
 while num != endnum:
-        rand = random.randint(40, 57)
-        num = num + 1
-        print("Ответ от ", answer, " число байт=32 время=", rand, "мс TTL=55")
-
-        if num == endnum:
-            print("Статистика Ping для ", answer)
-            print("Пакетов: отправлено = ", num, ", получено =", num, ", потеряно = ", 0)
+        ping()
