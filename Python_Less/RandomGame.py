@@ -14,8 +14,7 @@ while question != ran:
     if question == ran:
         print("        ")
         print("Ты выиграл!!!!!!!!!!!")
-        print("Ты выиграл!!!!!!!!!!!")
-        print("Ты выиграл!!!!!!!!!!!")
+
 
     elif question > ran:
         print("        ")
