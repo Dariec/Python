@@ -15,7 +15,7 @@ import math
 t = np.arange(0.0, 1.0, 0.009)
 s = np.sin(2 * np.pi * t)
 
-upper = 0.60
+upper = 0.90
 lower = -0.86
 
 supper = np.ma.masked_where(s < upper, s)
